@@ -20,7 +20,7 @@ public class CustomerService {
     @Resource
     private CustomerMapper customerMapper;
     @Autowired
-    private RedisTemplate redisTemplate;
+    private RedisTemplate<String,Object> redisTemplate;
     @Autowired
     private CheckUtils checkUtils;
 

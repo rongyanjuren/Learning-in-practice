@@ -23,7 +23,7 @@ public class Lettuce {
         List keys = commands.keys("*");
         System.out.println(keys);
         // string
-        commands.set("k6", "v6");
+        String set = commands.set("k6", "v6");
         System.out.println("********" + commands.get("k6"));
 
 
